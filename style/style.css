@@ -1,0 +1,13 @@
+h1, h2 {width:500px; margin:auto; text-align:center;}
+
+body {align-content:center; background-color:navy; font-family:Georgia, 'Times New Roman', Times, serif}
+
+a {width:10vw; border:1px solid black; padding:5px;}
+
+#adiv {display:inline; position:absolute; top:120px; right:20px;}
+
+#main {padding:20px; background-color:gainsboro; margin:20px; border: 3px solid black;}
+
+header {padding:20px; background-color:gainsboro; border: 3px solid white}
+
+#profilePic {width:200px; margin:auto; display:block;}
