@@ -1,0 +1,15 @@
+.odd, .even {line-height:50px; border: 1px solid black; width:50px; height:50px; 
+                text-align:center; margin:auto; margin-bottom:5px; margin-top:5px;
+                color: white; transition: all 5s}
+
+.odd {background-color:purple;}
+
+.even {background-color:blue;}
+
+#container {border: 2px solid black; width:800px; height:460px; transition: all 5s}
+
+#container:hover .odd {transform: translateX(381px) rotate(1080deg) scale(0.75,0.75);}
+
+#container:hover .even {transform: translateX(-349px) rotate(-1080deg) scale(2,2);}
+
+#container:hover {border-radius:20px; height:490px}
