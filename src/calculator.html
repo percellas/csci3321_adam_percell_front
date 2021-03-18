@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/style/calculator.css">
+    <title>ASP calculator</title>
+    <script src="../script/calculator.js"></script>
+</head>
+<body>
+    <div id="container">
+        <div id="output"></div>
+        <div class="common addition" onclick="displayOperator('+')">+</div>
+        <div class="common subtraction" onclick="displayOperator('-')">-</div>
+        <div class="common multiplication" onclick="displayOperator('*')">*</div>
+        <div class="common division" onclick="displayOperator('/')">/</div>
+        <div class="common equal" onclick="equals()">=</div>
+        <div class="common seven" onclick="updateDisplay('7')">7</div>
+        <div class="common eight" onclick="updateDisplay('8')">8</div>
+        <div class="common nine" onclick="updateDisplay('9')">9</div>
+        <div class="common four" onclick="updateDisplay('4')">4</div>
+        <div class="common five" onclick="updateDisplay('5')">5</div>
+        <div class="common six" onclick="updateDisplay('6')">6</div>
+        <div class="common one" onclick="updateDisplay('1')">1</div>
+        <div class="common two" onclick="updateDisplay('2')">2</div>
+        <div class="common three" onclick="updateDisplay('3')">3</div>
+        <div class="common zero" onclick="updateDisplay('0')">0</div>
+        <!--<div class="common clear" onclick="document.getElementById('output').innerHTML=''">AC</div> -->
+        <div class="common clear" onclick="updateDisplay('')">AC</div>
+    </div>
+</body>
+</html>

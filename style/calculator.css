@@ -1,0 +1,28 @@
+#container {display:grid; width:400px; margin:auto; background-color:#61429d; 
+            border-radius:5px; padding:10px; grid-gap:5px; 
+            grid-template-areas:
+                'output output output output'
+                'add subtract multiply divide'
+                'seven eight nine equals'
+                'four five six equals'
+                'one two three equals'
+                'clear clear zero equals'}
+
+#output {border-radius:5px; height:45px; text-align:right; background-color:white; 
+            line-height:45px; grid-area:output; }
+
+.addition {grid-area: add;}
+
+.subtraction {grid-area: subtract;}
+
+.multiplication {grid-area: multiply;}
+
+.division {grid-area: divide;}
+
+.equal {grid-area: equals; height:200px; background-color:white;}
+
+.common {background-color:white; text-align:center; line-height:50px; height:50px; 
+            color:black; font-size:25px; border-radius:3px; cursor:pointer;}
+
+/*needs digit key CSS assignment to grid areas*/
+
