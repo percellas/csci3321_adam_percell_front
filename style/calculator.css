@@ -24,5 +24,25 @@
 .common {background-color:white; text-align:center; line-height:50px; height:50px; 
             color:black; font-size:25px; border-radius:3px; cursor:pointer;}
 
-/*needs digit key CSS assignment to grid areas*/
+.clear {grid-area: clear}
+
+.zero {grid-area: zero}
+
+.one {grid-area: one}
+
+.two {grid-area: two}
+
+.three {grid-area: three}
+
+.four {grid-area: four}
+
+.five {grid-area: five}
+
+.six {grid-area: six}
+
+.seven {grid-area: seven}
+
+.eight {grid-area: eight}
+
+.nine {grid-area: nine}
 
