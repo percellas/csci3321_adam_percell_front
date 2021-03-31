@@ -1,0 +1,29 @@
+#container {width:400px; height:400px; margin:auto; display:grid; grid-gap:5px; border:10px solid purple;
+            grid-template-areas:
+            'one two three'
+            'four five six'
+            'seven eight nine'}
+
+.square {background-color:purple; color:white; width:100px; height:100px; padding:15px; 
+         line-height:100px; text-align:center; font-size:100px; font-family:sans-serif; cursor:pointer}
+
+#one {grid-area:one}
+
+#two {grid-area:two}
+
+#three {grid-area:three}
+
+#four {grid-area:four}
+
+#five {grid-area:five}
+
+#six {grid-area:six}
+
+#seven {grid-area:seven}
+
+#eight {grid-area:eight}
+
+#nine {grid-area:nine}
+
+#banner {text-align:center; width:400px; height: 80px; line-height:80px; 
+         margin:auto; font-size:40px}
